@@ -88,9 +88,9 @@ http://localhost:4200
 
 ## 👤 Default Accounts
 
-| Role        | Username     | Password |
-|-------------|--------------|----------|
-| Super Admin | superadmin   | 123456   |
+| Role        | Username     | Password   |
+|-------------|--------------|------------|
+| Super Admin | superadmin   | superadmin |
 
 🛑 Superadmin **cannot be edited or deleted**.
 

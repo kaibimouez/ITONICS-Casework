@@ -58,6 +58,15 @@ npm install
 ```
 
 ### ✅ 3. Run mock backend (JSON Server)
+### ✅ 3b. Install mock backend dependencies
+
+If you're using a `mock-server` folder for your backend, install its dependencies:
+
+```bash
+cd mock-server
+npm install
+cd ..
+```
 
 ```bash
 npm run mock:server

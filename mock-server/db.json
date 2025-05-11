@@ -3,14 +3,14 @@
     {
       "username": "superadmin",
       "password": "superadmin",
-      "fullName": "superadmin",
+      "fullName": "super admin",
       "roleId": 1,
       "id": 1
     }
   ],
   "roles": [
     {
-      "name": "superadmin",
+      "name": "super admin",
       "permissions": [
         1,
         2,

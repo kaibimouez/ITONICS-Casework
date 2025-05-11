@@ -6,13 +6,6 @@
       "fullName": "superadmin",
       "roleId": 1,
       "id": 1
-    },
-    {
-      "username": "Maizouu",
-      "password": "Maizou",
-      "fullName": "Maizou",
-      "roleId": 2,
-      "id": 2
     }
   ],
   "roles": [
@@ -25,13 +18,6 @@
         4
       ],
       "id": 1
-    },
-    {
-      "name": "viewer",
-      "permissions": [
-        1
-      ],
-      "id": 2
     }
   ],
   "permissions": [

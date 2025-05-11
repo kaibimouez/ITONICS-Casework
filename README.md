@@ -24,8 +24,6 @@ It fulfills the requirements for an ITONICS front-end assignment, including secu
   - Powered by JSON Server (`db.json`)
 - 🎨 **UI Framework**
   - Angular Material
-  - Optional Tailwind-compatible layout
-
 ---
 
 ## 📁 Folder Structure
@@ -49,7 +47,7 @@ src/
 ### ✅ 1. Clone the repo
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/itonics-case-work.git
+git clone https://github.com/kaibimouez/ITONICS-Casework.git   
 cd itonics-case-work
 ```
 
@@ -86,7 +84,6 @@ http://localhost:4200
 | Role        | Username     | Password |
 |-------------|--------------|----------|
 | Super Admin | superadmin   | 123456   |
-| Viewer      | viewer       | viewer   |
 
 🛑 Superadmin **cannot be edited or deleted**.
 

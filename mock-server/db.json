@@ -10,7 +10,7 @@
   ],
   "roles": [
     {
-      "name": "super admin",
+      "name": "superadmin",
       "permissions": [
         1,
         2,

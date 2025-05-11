@@ -51,17 +51,23 @@ git clone https://github.com/kaibimouez/ITONICS-Casework.git
 cd itonics-case-work
 ```
 
-### ✅ 2. Install dependencies
+### ✅ 2. Install Angular dependencies
 
 ```bash
 npm install
 ```
 
 ### ✅ 3. Run mock backend (JSON Server)
+### ✅ 3b. Install mock backend dependencies
+
+install mock-server dependencies:
 
 ```bash
-npm run mock:server
-# OR manually:
+cd mock-server
+npm install
+```
+
+```bash
 json-server --watch db.json --port 3000
 ```
 
@@ -107,7 +113,6 @@ Roles assign combinations of these permission IDs.
 ```bash
 npm start             # Angular app
 npm run mock:server   # JSON server
-npm run build         # Production build
 ```
 
 ---

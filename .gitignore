@@ -27,4 +27,5 @@ yarn-error.log*
 
 # OS generated
 .DS_Store
-Thumbs.db
+Thumbs.db# Exclude mock server dependencies
+mock-server/node_modules/

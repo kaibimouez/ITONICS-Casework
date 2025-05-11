@@ -54,6 +54,7 @@ cd itonics-case-work
 ### ✅ 2. Install Angular dependencies
 
 ```bash
+cd user-management
 npm install
 ```
 

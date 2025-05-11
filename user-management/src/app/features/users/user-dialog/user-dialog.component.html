@@ -1,0 +1,41 @@
+<h2 mat-dialog-title>{{ isEdit ? 'Edit User' : 'Create New User' }}</h2>
+<div mat-dialog-content>
+  <form #userForm="ngForm">
+    <mat-form-field class="full-width" appearance="outline">
+      <mat-label>Full Name</mat-label>
+      <input matInput name="fullName" [(ngModel)]="user.fullName" required />
+    </mat-form-field>
+
+    <mat-form-field class="full-width" appearance="outline">
+      <mat-label>Username</mat-label>
+      <input matInput name="username" [(ngModel)]="user.username" required />
+    </mat-form-field>
+
+    @if (!isEdit) {
+      <mat-form-field class="full-width" appearance="outline">
+        <mat-label>Password</mat-label>
+        <input matInput type="password" name="password" [(ngModel)]="user.password" required />
+      </mat-form-field>
+    }
+
+    <mat-form-field class="full-width" appearance="outline">
+      <mat-label>Role</mat-label>
+      <mat-select name="roleId" [(ngModel)]="user.roleId" required>
+        <mat-option *ngFor="let role of roles" [value]="role.id">
+          {{ role.name }}
+        </mat-option>
+      </mat-select>
+    </mat-form-field>
+  </form>
+</div>
+
+<div mat-dialog-actions>
+  <button mat-button (click)="dialogRef.close()">Cancel</button>
+  <button
+    mat-raised-button
+    color="primary"
+    (click)="save()"
+    [disabled]="!user.fullName || !user.username || (!isEdit && !user.password)">
+    Save
+  </button>
+</div>

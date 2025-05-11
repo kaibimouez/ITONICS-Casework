@@ -1,0 +1,31 @@
+<mat-sidenav-container class="layout-container">
+  <mat-sidenav mode="side" opened class="sidenav">
+    <mat-toolbar color="primary">Menu</mat-toolbar>
+
+    <mat-nav-list>
+      <a mat-list-item routerLink="/dashboard" routerLinkActive="active">Dashboard</a>
+
+      @if (permissionService.hasPermission(1)) {
+        <a mat-list-item routerLink="/users" routerLinkActive="active">Users</a>
+      }
+
+      @if (isSuperAdmin) {
+        <a mat-list-item routerLink="/roles" routerLinkActive="active">Roles</a>
+      }
+    </mat-nav-list>
+
+    <div class="logout-section">
+      <button mat-button color="warn" (click)="onLogout()">Logout</button>
+    </div>
+  </mat-sidenav>
+
+  <mat-sidenav-content>
+    <mat-toolbar color="primary">
+      <span>Welcome, {{ user()?.fullName }}</span>
+    </mat-toolbar>
+
+    <div class="content">
+      <router-outlet></router-outlet>
+    </div>
+  </mat-sidenav-content>
+</mat-sidenav-container>

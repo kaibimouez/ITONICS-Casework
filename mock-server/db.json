@@ -1,0 +1,55 @@
+{
+  "users": [
+    {
+      "username": "superadmin",
+      "password": "superadmin",
+      "fullName": "superadmin",
+      "roleId": 1,
+      "id": 1
+    },
+    {
+      "username": "Maizouu",
+      "password": "Maizou",
+      "fullName": "Maizou",
+      "roleId": 2,
+      "id": 2
+    }
+  ],
+  "roles": [
+    {
+      "name": "superadmin",
+      "permissions": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "id": 1
+    },
+    {
+      "name": "viewer",
+      "permissions": [
+        1
+      ],
+      "id": 2
+    }
+  ],
+  "permissions": [
+    {
+      "id": 1,
+      "name": "view_users"
+    },
+    {
+      "id": 2,
+      "name": "create_users"
+    },
+    {
+      "id": 3,
+      "name": "edit_users"
+    },
+    {
+      "id": 4,
+      "name": "delete_users"
+    }
+  ]
+}

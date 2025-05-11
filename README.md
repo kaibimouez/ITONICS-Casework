@@ -32,6 +32,10 @@ It fulfills the requirements for an ITONICS front-end assignment, including secu
 src/
 ├── app/
 │   ├── core/              # Shared models, services, guards, state
+│   │   ├── models/        # Interfaces used across the app
+│   │   ├── services/      # Reusable services
+│   │   ├── guards/        # Route guards (AuthGuard, SuperAdminGuard, PermissionGuard)
+│   │   ├── state/         # Global NgRx state
 │   ├── features/
 │   │   ├── auth/          # Login page + NgRx auth state
 │   │   ├── users/         # User dialog + list

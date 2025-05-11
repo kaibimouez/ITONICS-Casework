@@ -52,7 +52,7 @@ src/
 
 ```bash
 git clone https://github.com/kaibimouez/ITONICS-Casework.git   
-cd itonics-case-work
+cd ITONICS-Casework
 ```
 
 ### ✅ 2. Install Angular dependencies

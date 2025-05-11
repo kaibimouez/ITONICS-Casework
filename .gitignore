@@ -31,5 +31,5 @@ Thumbs.db# Exclude mock server dependencies
 mock-server/node_modules/
 
 # Ignore lock files
-package-lock.json
+user-management/package-lock.json
 mock-server/package-lock.json

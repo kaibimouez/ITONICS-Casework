@@ -58,7 +58,7 @@ npm install
 ```
 
 ### ✅ 3. Run mock backend (JSON Server)
-### ✅ 3b. Install mock backend dependencies
+### ✅ 3b. Install and run mock backend dependencies
 
 install mock-server dependencies:
 
@@ -68,7 +68,7 @@ npm install
 ```
 
 ```bash
-json-server --watch db.json --port 3000
+npm start
 ```
 
 ### ✅ 4. Start Angular frontend

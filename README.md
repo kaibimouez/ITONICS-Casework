@@ -110,15 +110,6 @@ Roles assign combinations of these permission IDs.
 
 ---
 
-## 🧪 Useful Scripts
-
-```bash
-npm start             # Angular app
-npm run mock:server   # JSON server
-```
-
----
-
 ## 🧹 Git Best Practices Followed
 
 - `.gitignore` excludes `node_modules`, `dist`, and `env` files
